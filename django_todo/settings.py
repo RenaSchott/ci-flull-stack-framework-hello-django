@@ -76,7 +76,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'django_todo.wsgi.application'
 
 
-# Database
+Database
+os.environ.get("DATABASE_URL")
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 #DATABASES = {
